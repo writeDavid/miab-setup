@@ -1,3 +1,11 @@
+#!/bin/bash
+#########################################################
+# This script is intended to be run like this:
+#
+#   curl https://github.com/writeDavid/miab-setup/raw/<version>/setup.sh | sudo bash
+#
+#########################################################
+
 if [ -z "$TAG" ]; then
 	# If a version to install isn't explicitly given as an environment
 	# variable, then install the latest version. But the latest version
