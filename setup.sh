@@ -21,9 +21,9 @@ if [ -z "$TAG" ]; then
 	# Allow point-release versions of the major releases, e.g. 22.04.1 is OK.
 	UBUNTU_VERSION=$( lsb_release -d | sed 's/.*:\s*//' | sed 's/\([0-9]*\.[0-9]*\)\.[0-9]/\1/' )
   if [ "$UBUNTU_VERSION" == "Ubuntu 26.04 LTS" ]; then
-  # This machine is running Ubuntu 22.04, which is supported by
-  # Mail-in-a-Box versions 60 and later.
-    TAG=v77a
+  		# This machine is running Ubuntu 22.04, which is supported by
+  		# Mail-in-a-Box versions 60 and later.
+    	TAG=v77a
 	elif [ "$UBUNTU_VERSION" == "Ubuntu 22.04 LTS" ]; then
 		# This machine is running Ubuntu 22.04, which is supported by
 		# Mail-in-a-Box versions 60 and later.
