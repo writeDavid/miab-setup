@@ -23,7 +23,7 @@ if [ -z "$TAG" ]; then
   if [ "$UBUNTU_VERSION" == "Ubuntu 26.04 LTS" ]; then
   		# This machine is running Ubuntu 22.04, which is supported by
   		# Mail-in-a-Box versions 60 and later.
-    	TAG=v77e
+    	TAG=v77f
 	elif [ "$UBUNTU_VERSION" == "Ubuntu 22.04 LTS" ]; then
 		# This machine is running Ubuntu 22.04, which is supported by
 		# Mail-in-a-Box versions 60 and later.
